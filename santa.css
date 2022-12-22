@@ -1,0 +1,101 @@
+#header {
+  position: relative;
+}
+
+#santaName {
+  position: absolute;
+  top: 180%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  border-radius: 15px;
+  font-weight: 800;
+  background-color: red;
+  color: white;
+  text-align: center;
+  white-space: nowrap;
+}
+
+#start {
+  background-color: green;
+  padding: 16px;
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+  width: fit-content;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+#noStart {
+  display: none;
+}
+
+#gameTitle {
+  color: lightgoldenrodyellow;
+  font-weight: 500;
+  font-size: 20px;
+  position: absolute;
+  top: 30px;
+  left: 37%;
+}
+
+#count {
+  position: absolute;
+  top: 80px;
+  left: 38%;
+}
+
+#giftCount {
+  position: relative;
+  color: green;
+  font-size: 32px;
+  left: 20px;
+  top: 20px;
+}
+
+#background {
+  position: relative;
+  margin-top: -10px;
+  width: 800px;
+  height: 600px;
+  /* 배경 바꾸기 */
+  background-color: lightgray;
+  background-size: cover;
+}
+
+.hidden {
+  display: none !important;
+}
+
+#santa {
+  position: absolute;
+  bottom: 32px;
+  left: 50%;
+
+  width: 48px;
+  height: 54px;
+
+  background: url("./images/santa.png") no-repeat;
+}
+
+#tree {
+  position: relative;
+  top: 35px;
+  left: 10px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 60px;
+}
